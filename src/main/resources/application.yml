@@ -1,0 +1,21 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: booksearch
+      username: YbQoyGcKotdHxDzYTjbQkZMC
+      password: ZaDM.DH6bgPF2sPyMclZTKPRRHp7TSc.sCZsdf_CZutX7_sWNUUnxrt__AplOidSsIRT8g8a8g9Oy_mNyKfSajUjH1zkByO9axZwnWuHaL_16zcJ4QAoI9PKe3GwrCTn
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+datastax.astra:
+  secure-connect-bundle: secure-connect-books.zip
+
+astra.db:
+  id: 4d788f90-563a-488e-8b16-8f3dff9d0500-1
+  region: us-west-2
+  keyspace: booksearch
+  application.id: AstraCS:YbQoyGcKotdHxDzYTjbQkZMC:c25b5bc975128d921adb0b25f6c45a1929d7a1789c66ef1ebfe626c3731a6b02
