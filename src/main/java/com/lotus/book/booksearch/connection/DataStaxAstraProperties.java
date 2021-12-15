@@ -1,4 +1,4 @@
-package connection;
+package com.lotus.book.booksearch.connection;
 
 import java.io.File;
 

@@ -1,3 +1,7 @@
+library.book.dump:
+  author: /Users/srinivasabokka/OneDrive/downloads/ol_dump_authors_2021-11-30.txt
+  works: /Users/srinivasabokka/OneDrive/downloads/ol_dump_works_2021-11-30.txt
+
 spring:
   data:
     cassandra:
@@ -6,10 +10,12 @@ spring:
       password: ZaDM.DH6bgPF2sPyMclZTKPRRHp7TSc.sCZsdf_CZutX7_sWNUUnxrt__AplOidSsIRT8g8a8g9Oy_mNyKfSajUjH1zkByO9axZwnWuHaL_16zcJ4QAoI9PKe3GwrCTn
       schema-action: create-if-not-exists
       request:
-        timeout: 10s
+        timeout: 15s
       connection:
         connect-timeout: 10s
         init-query-timeout: 10s
+  main:
+    allow-circular-references: true
 
 datastax.astra:
   secure-connect-bundle: secure-connect-books.zip
