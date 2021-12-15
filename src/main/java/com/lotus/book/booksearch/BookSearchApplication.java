@@ -59,8 +59,7 @@ public class BookSearchApplication {
     public void start() {
 
         // Load author here;
-        // loadAuthor();
-        // loadWorks();
+        loadAuthor();
         loadWorks();
 
         // Author author = new Author();

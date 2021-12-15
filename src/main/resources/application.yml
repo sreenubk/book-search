@@ -8,7 +8,7 @@ spring:
       keyspace-name: booksearch
       username: YbQoyGcKotdHxDzYTjbQkZMC
       password: ZaDM.DH6bgPF2sPyMclZTKPRRHp7TSc.sCZsdf_CZutX7_sWNUUnxrt__AplOidSsIRT8g8a8g9Oy_mNyKfSajUjH1zkByO9axZwnWuHaL_16zcJ4QAoI9PKe3GwrCTn
-      schema-action: create-if-not-exists
+      schema-action: recreate
       request:
         timeout: 15s
       connection:
